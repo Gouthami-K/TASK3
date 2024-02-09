@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Datewise Duration</h1>
+    {{ datewise_duration.to_html()|safe }}
+
+    <h1>Datewise Activity Count</h1>
+    {{ datewise_activity_count.to_html()|safe }}
+</body>
+</html>
